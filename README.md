@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Zoomer - Enterprise-Ready Video Calling App
+
+Zoomer is a comprehensive video conferencing application built with Next.js 14, Stream, and Tailwind CSS, offering a seamless and professional communication experience for enterprises. With Clerk authentication integrated, Zoomer ensures secure access control and user management, making it an ideal solution for businesses of all sizes.
+
+## Features
+
+- **High-Quality Video Calls**: Enjoy crisp and clear video calls with advanced streaming technology provided by Stream.
+
+- **Enterprise-Grade Security**: Clerk authentication ensures secure access control and user management, safeguarding sensitive information and ensuring compliance with industry standards.
+
+- **Customizable Interface**: Tailwind CSS allows for easy customization of the user interface, enabling you to tailor the app's look and feel to match your brand identity.
+
+- **Scalable Architecture**: Built with Next.js 14, Zoomer offers a scalable and robust architecture, capable of handling the demands of enterprise-level usage.
+
+- **Easy Deployment**: Deploy Zoomer quickly and effortlessly, thanks to Next.js's efficient build process and streamlined deployment options.
 
 ## Getting Started
 
-First, run the development server:
+To get started with Zoomer, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the Repository**: Clone the Zoomer repository to your local machine.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```
+   git clone https://github.com/GreNxNja/Zoomer.git
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install Dependencies**: Navigate to the project directory and install the required dependencies.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```
+   cd Zoomer
+   npm install
+   ```
 
-## Learn More
+3. **Set Up Clerk Authentication**: Sign up for Clerk and follow the integration instructions to set up authentication for your Zoomer app.
 
-To learn more about Next.js, take a look at the following resources:
+4. **Configuration**: Configure your Stream account credentials and any other settings in the appropriate configuration files.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. **Run the Application**: Start the development server to run the Zoomer application locally.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```
+   npm run dev
+   ```
 
-## Deploy on Vercel
+6. **Access Zoomer**: Once the server is running, access Zoomer in your web browser at `http://localhost:3000`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To deploy Zoomer for production, follow these steps:
+
+1. **Build the Application**: Generate a production build of the Zoomer application.
+
+   ```
+   npm run build
+   ```
+
+2. **Start the Server**: Start the Next.js production server.
+
+   ```
+   npm start
+   ```
+
+3. **Deploy to Your Hosting Provider**: Deploy the built application to your preferred hosting provider, ensuring compatibility with Next.js and Node.js.
+
+## Contributing
+
+Contributions to Zoomer are welcome! If you encounter any bugs or have suggestions for new features, please open an issue on the GitHub repository or submit a pull request.
+
+## License
+
+Zoomer is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Next.js
+- Stream
+- Tailwind CSS
+- Clerk
+
+## Support
+
+For support or inquiries, please contact the Zoomer development team at support@zoomerapp.com.
+
+---
+
+Thank you for choosing Zoomer for your enterprise video conferencing needs. We hope you enjoy using our app!
