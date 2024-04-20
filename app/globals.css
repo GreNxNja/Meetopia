@@ -56,7 +56,7 @@
 /* ==== clerk class override ===== */
 
 .cl-userButtonPopoverActionButtonIcon {
-  color: white;
+  filter: invert(1);
 }
 
 .cl-logoBox {
