@@ -1,16 +1,22 @@
 import MeetingTypeList from "@/components/MeetingTypeList";
 
 const Home = () => {
+  // Create a new Date object with the current date and time
   const now = new Date();
 
+  // Set the timezone to Indian Standard Time (IST)
   const time = now.toLocaleTimeString("en-US", {
     hour: "2-digit",
     minute: "2-digit",
+    timeZone: "Asia/Kolkata", // Set the timezone to IST
   });
+
+  // Format the date in a full style
   const date = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
     now
   );
 
+  // Render the UI with the formatted time and date
   return (
     <section className="flex size-full flex-col gap-5 text-white">
       <div className="relative h-[303px] max-w-full rounded-[20px] bg-hero bg-cover flex items-center justify-center">
