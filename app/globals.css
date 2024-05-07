@@ -54,9 +54,14 @@
 }
 
 /* ==== clerk class override ===== */
+.cl-alternativeMethodsBlockButtonText {
+  color: whitesmoke;
+}
+
 .cl-socialButtonsIconButton__github {
   filter: invert(1);
 }
+
 .cl-userButtonPopoverActionButtonIcon {
   color: white;
 }
